@@ -61,22 +61,19 @@
 		padding: 0;
 	}
 
-	a {
-		text-decoration: none;
-		color: black;
-	}
-
 	nav {
 		font-size: 2rem;
 		background-color: #f1f1f1;
 	}
 
-	nav ul {
+	nav ul a {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 		align-items: center;
 		display: flex;
+		text-decoration: none;
+		color: black;
 	}
 
 	nav ul a li {
