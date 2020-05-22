@@ -1,10 +1,4 @@
 <script>
-window.onbeforeunload = function() { 
-    window.setTimeout(function () { 
-        window.location = 'https://scorecard-piia.netlify.app/';
-    }, 0); 
-    window.onbeforeunload = null; // necessary to prevent infinite loop, that kills your browser 
-}
 </script>
 
 <div class="welcome-text">
