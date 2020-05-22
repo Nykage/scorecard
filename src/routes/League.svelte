@@ -3,13 +3,20 @@ import {league} from './data-league.js'
 import {onMount} from 'svelte'
 
 onMount( async() => {
-    const url = 'http://localhost/scorecard/back/get-events-league.php'
+    const url = 'https://scorecard-backend.truudeli15.net/back/get-events-league.php'
     let res = await fetch(url)
     res = await res.json()
     let data = await res.data
     $league = res.data
     console.log(res.data)
 })
+
+if (performance.navigation.type == 1) {
+	console.info( "This page is reloaded" );
+	window.location.replace("https://scorecard-piia.netlify.app/");
+} else {
+	console.info( "This page is not reloaded");
+}
 </script>
 
 <div class="flex-container">

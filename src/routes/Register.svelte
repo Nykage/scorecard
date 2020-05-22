@@ -1,4 +1,10 @@
 <script>
+	if (performance.navigation.type == 1) {
+		console.info( "This page is reloaded" );
+		window.location.replace("https://scorecard-piia.netlify.app/");
+	} else {
+		console.info( "This page is not reloaded");
+	}
 </script>
 
 <div class="welcome-text">
@@ -6,7 +12,7 @@
 </div>
 
 <div class="form-container">
-    <form action="http://localhost/scorecard/back/create-user.php" method="post">
+    <form action="https://scorecard-backend.truudeli15.net/back/create-user.php" method="post">
         <span class="title">First Name:</span> <br><input type="text" name="first_name"><br>
         <span class="title">Last Name:</span> <br><input type="text" name="last_name"><br>
         <span class="title">Password:</span> <br><input type="password" name="password"><br>
