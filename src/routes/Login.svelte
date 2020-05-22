@@ -77,7 +77,7 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 750px) {
     .form-container {
         max-width: 250px;
         display: flex;

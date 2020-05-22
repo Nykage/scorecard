@@ -50,7 +50,7 @@ onMount( async() => {
         text-align: center;
     }
 
-	@media all and (max-width: 400px) {
+	@media all and (max-width: 750px) {
         .flex-container {
             flex-direction: column;
         }

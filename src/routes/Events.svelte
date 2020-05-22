@@ -35,7 +35,7 @@
     margin-bottom: 0px;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 750px) {
     .welcome-text {
         text-align: center;
         color: #8372e6;
