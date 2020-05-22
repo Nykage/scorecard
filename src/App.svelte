@@ -102,7 +102,7 @@
 		color: white;
 	}
 
-	@media all and (max-width: 800px) {
+	@media all and (max-width: 900px) {
 		nav {
 			font-size: 2rem;
 			margin-bottom: 3rem;
