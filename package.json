@@ -1,5 +1,6 @@
 {
   "name": "svelte-app",
+  "homepage": "https://piia-scorecard.truudeli15.net/",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
@@ -16,6 +17,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "svelte-routing": "^1.4.2"
   }
 }
