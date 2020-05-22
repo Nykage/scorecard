@@ -14,11 +14,11 @@
 <Router url="{url}">
 <nav>
 	<ul>
-		<li><a href="/" use:link>Home</a></li>
-		<li><a href="league" use:link>League</a></li>
-		<li><a href="ranking" use:link>Ranking</a></li>
-		<li><a href="login" use:link>Login</a></li>
-		<li><a href="register" use:link>Register</a></li>
+		<a href="/" use:link><li>Home</li></a>
+		<a href="league" use:link><li>League</li></a>
+		<a href="ranking" use:link><li>Ranking</li></a>
+		<a href="login" use:link><li>Login</li></a>
+		<a href="register" use:link><li>Register</li></a>
 	</ul>
 </nav>
 </Router>
@@ -79,19 +79,15 @@
 		display: flex;
 	}
 
-	nav ul li {
+	nav ul a li {
 		cursor: pointer;
 		padding: 1rem;
 		flex: auto;
 		text-align: center;
 	}
 
-	nav ul li:hover {
+	nav ul a li:hover {
 		background-color: #555;
-		color: white;
-	}
-
-	nav ul li:hover > a {
 		color: white;
 	}
 

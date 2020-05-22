@@ -7,10 +7,10 @@
 
 <div class="form-container">
     <form action="https://scorecard-backend.truudeli15.net/back/create-user.php" method="post">
-        <span class="title">First Name:</span> <br><input type="text" name="first_name"><br>
-        <span class="title">Last Name:</span> <br><input type="text" name="last_name"><br>
-        <span class="title">Password:</span> <br><input type="password" name="password"><br>
-        <span class="title">E-mail:</span> <br><input type="email" name="email"><br>
+        <span class="title">First Name:</span> <br><input type="text" name="first_name" required><br>
+        <span class="title">Last Name:</span> <br><input type="text" name="last_name" required><br>
+        <span class="title">Password:</span> <br><input type="password" name="password" required><br>
+        <span class="title">E-mail:</span> <br><input type="email" name="email" required><br>
         <input type="submit" value="Submit">
         <input type="text" name="user_type" value="user" style="visibility: hidden; margin: 0; padding: 0;">
     </form>
