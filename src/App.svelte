@@ -14,11 +14,11 @@
 <Router url="{url}">
 <nav>
 	<ul>
-		<a href="/" use:link><li>Home</li></a>
-		<a href="league" use:link><li>League</li></a>
-		<a href="ranking" use:link><li>Ranking</li></a>
-		<a href="login" use:link><li>Login</li></a>
-		<a href="register" use:link><li>Register</li></a>
+		<li><a href="/" use:link>Home</a></li>
+		<li><a href="league" use:link>League</a></li>
+		<li><a href="ranking" use:link>Ranking</a></li>
+		<li><a href="login" use:link>Login</a></li>
+		<li><a href="register" use:link>Register</a></li>
 	</ul>
 </nav>
 </Router>
@@ -61,30 +61,37 @@
 		padding: 0;
 	}
 
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
 	nav {
 		font-size: 2rem;
 		background-color: #f1f1f1;
 	}
 
-	nav ul a {
+	nav ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 		align-items: center;
 		display: flex;
-		text-decoration: none;
-		color: black;
 	}
 
-	nav ul a li {
+	nav ul li {
 		cursor: pointer;
 		padding: 1rem;
 		flex: auto;
 		text-align: center;
 	}
 
-	nav ul a li:hover {
+	nav ul li:hover {
 		background-color: #555;
+		color: white;
+	}
+
+	nav ul li:hover > a {
 		color: white;
 	}
 
