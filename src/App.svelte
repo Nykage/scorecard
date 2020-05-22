@@ -102,36 +102,6 @@
 		color: white;
 	}
 
-	@media all and (max-width: 800px) {
-		.hero-image {
-			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hero-image.png');
-			height: 75%;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			position: relative;
-			margin-bottom: 3rem;
-		}
-
-		.hero-text {
-			text-align: center;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: white;
-		}
-
-		.hero-text .title {
-			font-size: 70px;
-		}
-
-		.hero-text span {
-			font-size: 20px;
-			text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.85);
-		}
-	}
-
 	@media all and (max-width: 400px) {
 		nav {
 			font-size: 2rem;
